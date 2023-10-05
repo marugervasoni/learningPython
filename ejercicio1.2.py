@@ -12,4 +12,4 @@ if cantidadPalabras > 120:
 
 
 # c) dalto habla un 30% + rapido -cuanto tardaría el en decirlo
-print(f"Dalto lo diría en {cantidadPalabras * 100 // 2/1.3 /100} segundos en decirlo")
+print(f"Dalto lo diría en {round(cantidadPalabras/2 /1.3,2)} segundos en decirlo")
